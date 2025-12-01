@@ -30,10 +30,10 @@
     .hero-overlay {
         position: absolute;
         inset: 0;
-        background: radial-gradient(circle at top left, rgba(59,130,246,0.6), transparent),
+        background: radial-gradient(circle at top left, rgba(193, 152, 5, 0.6), transparent),
                     radial-gradient(circle at bottom right, rgba(79,70,229,0.6), transparent);
         mix-blend-mode: soft-light;
-        z-index: -1;
+        z-index: -1;S
     }
 
     .hero-content {
@@ -73,15 +73,15 @@
     .btn-secondary {
         padding: 0.7rem 1.3rem;
         border-radius: 999px;
-        border: 1px solid rgba(229,231,235,0.6);
+        border: 1px solid rgba(#e79f64);
         font-size: 0.9rem;
-        background: rgba(17,24,39,0.55);
-        backdrop-filter: blur(6px);
-        color: #e5e7eb;
+        background: rgba(#e79f64);
+        backdrop-filter: blur(0.99rem);
+        color: #ef7d0c;
     }
 
     .btn-secondary:hover {
-        background: rgba(17,24,39,0.85);
+        background: rgba(#e79f64);
     }
 
     /* Section services sur la page d'accueil */
@@ -106,13 +106,13 @@
         text-decoration: none;
         cursor: pointer;
         min-height: 220px;
-        background: #111827;
+        background: #f7f7f6;
         transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
     }
 
     .service-card:hover {
         transform: translateY(-4px);
-        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.25);
+        box-shadow: 0 14px 30px rgba(237, 238, 241, 0.25);
     }
 
     .service-image-wrapper {
@@ -317,7 +317,9 @@
 
         <!-- Petit rappel vers la page contact -->
         <div class="home-contact-cta">
-            <p>Vous avez un projet en tête ?</p>
+            <p style="font-weight: bold; background: linear-gradient(to right, #8B4513, #D2691E, #CD853F); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline;">
+Vous avez un projet en tête ?
+</p>
             <a href="/contact/" class="btn-primary">Nous contacter</a>
         </div>
     </div>

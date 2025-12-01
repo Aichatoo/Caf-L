@@ -42,7 +42,7 @@ class ServiceBlock(blocks.StructBlock):
         label="Titre du service"
     )
 
-    description = blocks.TextBlock(
+    description = blocks.RichTextBlock(
         required=False,
         label="Description courte"
     )
