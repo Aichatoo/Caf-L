@@ -12,3 +12,4 @@ try:
     from .local import *
 except ImportError:
     pass
+python manage.py shell

@@ -2,9 +2,9 @@
 	 Keep things simple and commented for learners. */
 
 :root{
-	--accent:#0b78d1;
-	--muted:#6b7280;
-	--bg:#f7f8fb;
+	--accent:#ed800b;
+	--muted:#db7215;
+	--bg:#ea9619;
 	--max-width:1100px;
 	--radius:8px;
 }
