@@ -43,7 +43,7 @@
     }
 
     .hero-kicker {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #bfdbfe;
@@ -58,7 +58,7 @@
 
     .hero-subtitle {
         max-width: 540px;
-        font-size: 0.98rem;
+        font-size: 1.0rem;
         color: #e5e7eb;
         margin-bottom: 1.75rem;
     }
@@ -68,20 +68,6 @@
         flex-wrap: wrap;
         gap: 0.8rem;
         align-items: center;
-    }
-
-    .btn-secondary {
-        padding: 0.7rem 1.3rem;
-        border-radius: 999px;
-        border: 1px solid rgba(#e79f64);
-        font-size: 0.9rem;
-        background: rgba(#e79f64);
-        backdrop-filter: blur(0.99rem);
-        color: #ef7d0c;
-    }
-
-    .btn-secondary:hover {
-        background: rgba(#e79f64);
     }
 
     /* Section services sur la page d'accueil */
@@ -259,7 +245,7 @@
             {# Bouton secondaire : texte + lien choisis dans l’admin #}
             {% if page.hero_secondary_button_text %}
                 <a href="{% if page.hero_secondary_button_page %}{{ page.hero_secondary_button_page.url }}{% else %}#{% endif %}"
-                   class="btn-secondary">
+                   class="btn-primary">
                     {{ page.hero_secondary_button_text|default:"Discutons de votre projet" }}
                 </a>
             {% endif %}
